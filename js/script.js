@@ -22,11 +22,15 @@ learning.learningGoals.splice(1,1);
 
 console.log(learning);
 
-topicElement.innerText = `I'm learning ${learning.topic}.`;
-topicElement.remove("hide");
+topicElement.innerText = `♻️ I'm learning ${learning.topic}.`;
+topicElement.classList.remove("hide");
 
-countElement.innerText = `I have ${learning.learningGoals.length} learning goals.`;
+countElement.innerText = `✔️ I have ${learning.learningGoals.length} learning goals.`;
 countElement.classList.remove("hide");
+
+
+
+
 
 
 
